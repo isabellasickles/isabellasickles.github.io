@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavender and Black Template</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #E6E6FA; /* Lavender background */
+            color: #000000; /* Black text */
+        }
+
+        header {
+            background-color: #4B0082; /* Dark lavender (indigo) for header */
+            color: #FFFFFF; /* White text for header */
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #000000; /* Black navigation */
+            color: #FFFFFF;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #E6E6FA; /* Lavender links */
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #FFFFFF; /* White background for content card */
+            border: 1px solid #000000; /* Black border */
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: #4B0082; /* Dark lavender (indigo) */
+            color: #FFFFFF;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Lavender and Black Theme</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <div class="card">
+        <h2>Welcome to the Lavender and Black Template</h2>
+        <p>This template uses lavender and black as the main colors, creating a soft yet bold contrast for a modern, sleek look.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 Lavender & Black Template</p>
+</footer>
+
+</body>
+</html>
