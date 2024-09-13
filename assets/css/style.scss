@@ -1,57 +1,34 @@
-/* General Styling */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #000000; /* Black background */
-    color: #FF0000; /* Red text */
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Text Black Background Template</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-/* Header Styling */
-header {
-    background-color: #1a1a1a; /* Slightly lighter black for header */
-    color: #FF0000; /* Red text */
-    padding: 20px;
-    text-align: center;
-}
+<header>
+    <h1>Red on Black Theme</h1>
+</header>
 
-/* Navigation Bar */
-nav {
-    background-color: #000000; /* Black navigation bar */
-    padding: 10px;
-    text-align: center;
-}
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
 
-nav a {
-    color: #FF0000; /* Red text for links */
-    margin: 0 15px;
-    text-decoration: none;
-}
+<section>
+    <div class="card">
+        <h2>Welcome to the Red Text Black Background Template</h2>
+        <p>This template uses red text on a black background for a bold, striking visual design.</p>
+    </div>
+</section>
 
-nav a:hover {
-    color: #FF4500; /* Darker red for hover effect */
-}
+<footer>
+    <p>© 2024 Red on Black Template</p>
+</footer>
 
-/* Section Styling */
-section {
-    padding: 20px;
-}
-
-/* Content Card */
-.card {
-    background-color: #1a1a1a; /* Slightly lighter black for card background */
-    border: 1px solid #FF0000; /* Red border */
-    border-radius: 8px;
-    padding: 15px;
-    margin: 20px 0;
-}
-
-/* Footer Styling */
-footer {
-    background-color: #1a1a1a; /* Slightly lighter black */
-    color: #FF0000; /* Red text */
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
+</body>
+</html>
