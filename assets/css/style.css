@@ -1,34 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Red Text Black Background Template</title>
-    <link rel="stylesheet" type="text/css" href="https//:isabellasickles.github.io/style.css">
-</head>
-<body>
+/* CSS Stylesheet */
+body {
+    background-color: black; /* Sets the background color to black */
+    color: red; /* Sets the text color to red */
+    font-family: Arial, sans-serif; /* Optional: Sets a default font */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
 
-<header>
-    <h1>Red on Black Theme</h1>
-</header>
-
-<nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Contact</a>
-</nav>
-
-<section>
-    <div class="card">
-        <h2>Welcome to the Red Text Black Background Template</h2>
-        <p>This template uses red text on a black background for a bold, striking visual design.</p>
-    </div>
-</section>
-
-<footer>
-    <p>© 2024 Red on Black Template</p>
-</footer>
-
-</body>
-</html>
+h1, h2, h3, h4, h5, h6, p {
+    color: red; /* Ensures all headings and paragraphs have red text */
+}
